@@ -1,5 +1,9 @@
 # Projekt z Sieci
 
+Zadanie polegające na wyszukaniu odpowiedzi na zadane przez klienta zapytanie w rozproszonej bazie danych.  
+Klasa klienta (DatabaseClient) jest dana od wykładowcy. Przyjmuje parametry i wysyła operacje.
+
+
 Dokumentacja
 
 Przyjęcie inforamcji do storzenia serwera DatabaseNode. 
@@ -27,7 +31,6 @@ Przyjęcie polecenia od innego serwera/klienta.
 
 -"hostToHostD"/"hostToHostU" - wiadomość od innego serwera z dołu/góry przesłana z zapytaniem pierwotnego serwera od klienta
 
-Klient DatabaseClient podany przez prowadzącego zajęcia. Przyjmuje parametry i wysyła operacje.
 
 
 Tworzenie serwerów i przykładowe zapytanie od DatabaseClient

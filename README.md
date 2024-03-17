@@ -32,7 +32,7 @@ Klient DatabaseClient podany przez prowadzącego zajęcia. Przyjmuje parametry i
 
 Tworzenie serwerów i przykładowe zapytanie od DatabaseClient
 
-java DatabaseNode.java -tcpport 9991 -record 11:252 
-java DatabaseNode.java -tcpport 9992 -record 22:6 -connect localhost:9991 
-java DatabaseNode.java -tcpport 9993 -record 33:555 -connect localhost:9992 
-(klasa od prowadzącego)   java DatabaseClient.java -gateway localhost:9991 -operation get-value 33 
+ java DatabaseNode.java -tcpport 9991 -record 11:252 
+ java DatabaseNode.java -tcpport 9992 -record 22:6 -connect localhost:9991 
+ java DatabaseNode.java -tcpport 9993 -record 33:555 -connect localhost:9992 
+ (klasa od prowadzącego)   java DatabaseClient.java -gateway localhost:9991 -operation get-value 33 
